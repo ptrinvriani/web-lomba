@@ -1,0 +1,205 @@
+:root {
+  --primary_color: #fff5e8;
+  --font: "Playfair Display", serif;
+  --width: "395px";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+h3 {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 20px;
+  margin-top: 10px;
+  height: 20px;
+  width: 395px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  border: none;
+  background-color: #ffff;
+}
+
+.section-category {
+  width: 395px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* promo l21.id */
+.section-category2 {
+  width: 395px;
+  height: 140px;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.icon-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .taskbar-upper {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.blok-brand {
+  width: 355px;
+  margin: auto;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  gap: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 395px;
+  height: 30px;
+  /* gap: 10px; */
+  /* margin: auto; */
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  width: 355px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.search {
+  width: 315px;
+  height: 28px;
+  border-radius: 10px;
+  margin: auto;
+  border: 2px solid 20%;
+  color: rgba(0, 0, 0, 0.02);
+  background-color: var(--primary_color);
+}
+
+/* .notification {
+  margin: auto;
+} */
+
+.section-promo {
+  width: 395px;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-category {
+  display: flex;
+  gap: 7px;
+}
+
+.section-iklan {
+  display: flex;
+  width: 395px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.section2 {
+  width: 395px;
+  margin: auto;
+  height: 210px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.taskbar-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff5e8;
+}
+
+/* TAMPILAN TAMBAH ALAMAT BARU */
+nav {
+  width: 395px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+  padding-left: 30px;
+  margin: auto;
+}
+
+.border {
+  width: var(--width);
+  border: 1px solid rgba(0, 0, 0, 20%);
+}
+
+.form_diri {
+  width: var(--width);
+  padding: 30px;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_form input {
+  width: 300px;
+  height: 30px;
+}
+
+.input_form p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.task-button {
+  width: 395px;
+  height: 73px;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.button-footer {
+  background-color: rgba(156, 85, 3, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 40px;
+  margin: auto;
+  border: none;
+}

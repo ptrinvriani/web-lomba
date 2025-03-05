@@ -8,13 +8,15 @@
   </head>
   <body>
     <nav>
-      <button type="button">
-        <img src="assets/icon/chevron-left.png" alt="panah kiri" />
+      <button type="button" class="button">
+        <a href="profil.html">
+          <img src="assets/icon/chevron-left.png" alt="panah kiri" />
+        </a>
       </button>
       <h1 style="font-weight: 500; font-size: 20px">TAMBAH ALAMAT BARU</h1>
       <br />
-   </nav>
-   <div class="border"></div>
+    </nav>
+    <div class="border"></div>
 
     <form action="">
       <div class="form_diri">
@@ -44,25 +46,23 @@
           <br />
         </div>
         <div class="input_form">
-          <input 
-          style="border: none;"
-          type="text" name="nama" placeholder="Tambah Alamat*" />
-          <div class="border"></div>
-          <br />
+          <p>Alamat</p>
+          <input type="text" name="nama" placeholder="Tambah Alamat*" />
         </div>
+
         <div class="input_form">
           <p>Provinsi</p>
-          <input type="text" name="nama" placeholder="Provinsi*" />
+          <input type="text" name="nama" placeholder="Pilih Provinsi*" />
           <br />
         </div>
         <div class="input_form">
           <p>Kota/Kabupaten</p>
-          <input type="text" name="nama" placeholder="Kota/Kabupaten*" />
+          <input type="text" name="nama" placeholder="Pilih Kota/Kabupaten*" />
           <br />
         </div>
         <div class="input_form">
-          <p>Kecamatan</p><br>
-          <input type="text" name="nama" placeholder="Kecamatan*" />
+          <p>Kecamatan</p>
+          <input type="text" name="nama" placeholder="Pilih Kecamatan*" />
           <br />
         </div>
         <div class="input_form">
@@ -72,5 +72,22 @@
         </div>
       </div>
     </form>
+
+    <footer>
+      <div class="task-button">
+        <button class="button-footer">
+          <a
+            style="
+              text-decoration: none;
+              color: white;
+              font-weight: 700;
+              line-height: 15px;
+            "
+            href="homepage.html"
+            >Simpan</a
+          >
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
