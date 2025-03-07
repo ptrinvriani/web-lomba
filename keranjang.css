@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --primary_color: #fff5e8;
+    --font: "Playfair Display", serif;
+  }
+  
+  * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family:var(--font) ;
+  }
+
+  /* NAVBAR */
+  nav {
+    width: 395px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin: auto;
+  }
+  
+  .border {
+    width: var(--width);
+    border: 1px solid rgba(0, 0, 0, 20%);
+  }
+
+  .button {
+    border: none;
+    background-color: #ffff;
+  }
+
+  /* Konten Keranjang */
+  .keranjang {
+    width: 393px;
+    height: 526px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+  }
+
+  .container img {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container p {
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+  }
+
+  .container h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .container button {
+    width: 361px;
+    height: 40px;
+    background-color: #9C5503;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: Playfair Display;
+    font-weight: 700px;
+    font-size: 13px;
+    line-height: 120%;
+    color: white;
+    border-radius: 10px;
+  }
+
+  /* Footer */
+  .taskbar-bottom {
+    width: 393px;
+    height: 72px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff5e8;
+  }
+  
+  
+  .beranda a img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+  }
+  
+  .beranda a p {
+    font-size: 11px;
+    font-weight: 600px;
+    line-height: 13.2px;
+    text-align: center;
+  }
+  
+  .kategori a img {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+  }
+  
+  .kategori a p {
+    font-size: 11px;
+    font-weight: 600px;
+    line-height: 13.2px;
+    text-align: center;
+  }
+  
+  .Keranjang a img {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+  }
+  
+  .Keranjang a p {
+    font-size: 11px;
+    font-weight: 600px;
+    line-height: 13.2px;
+    text-align: center;
+  }
+  
+  .profil a img {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+  }
+  
+  .profil p {
+    font-size: 11px;
+    font-weight: 600px;
+    line-height: 13.2px;
+    text-align: center;
+  }
