@@ -232,52 +232,52 @@
  }
  
  
- .beranda > img {
+ .beranda a img {
    width: 50px;
    height: 50px;
    align-items: center;
  }
  
- .beranda > p {
+ .beranda a p {
    font-size: 11px;
    font-weight: 600px;
    line-height: 13.2px;
    text-align: center;
  }
  
- .kategori > img {
+ .kategori a img {
    width: 35px;
    height: 35px;
    align-items: center;
  }
  
- .kategori > p {
+ .kategori a p {
    font-size: 11px;
    font-weight: 600px;
    line-height: 13.2px;
    text-align: center;
  }
  
- .Keranjang > img {
+ .Keranjang a img {
    width: 35px;
    height: 35px;
    align-items: center;
  }
  
- .Keranjang > p {
+ .Keranjang a p {
    font-size: 11px;
    font-weight: 600px;
    line-height: 13.2px;
    text-align: center;
  }
  
- .profil > img {
+ .profil a img {
    width: 35px;
    height: 35px;
    align-items: center;
  }
  
- .profil > p {
+ .profil p {
    font-size: 11px;
    font-weight: 600px;
    line-height: 13.2px;
