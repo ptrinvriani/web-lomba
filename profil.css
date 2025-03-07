@@ -229,3 +229,66 @@
    height: 50px;
    padding: 10px;
 }
+
+.taskbar-bottom {
+   width: 393px;
+   height: 72px;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #fff5e8;
+ }
+ 
+ 
+ .beranda > img {
+   width: 50px;
+   height: 50px;
+   align-items: center;
+ }
+ 
+ .beranda > p {
+   font-size: 11px;
+   font-weight: 600px;
+   line-height: 13.2px;
+   text-align: center;
+ }
+ 
+ .kategori > img {
+   width: 35px;
+   height: 35px;
+   align-items: center;
+ }
+ 
+ .kategori > p {
+   font-size: 11px;
+   font-weight: 600px;
+   line-height: 13.2px;
+   text-align: center;
+ }
+ 
+ .Keranjang > img {
+   width: 35px;
+   height: 35px;
+   align-items: center;
+ }
+ 
+ .Keranjang > p {
+   font-size: 11px;
+   font-weight: 600px;
+   line-height: 13.2px;
+   text-align: center;
+ }
+ 
+ .profil > img {
+   width: 35px;
+   height: 35px;
+   align-items: center;
+ }
+ 
+ .profil > p {
+   font-size: 11px;
+   font-weight: 600px;
+   line-height: 13.2px;
+   text-align: center;
+ }
