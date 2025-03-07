@@ -12,6 +12,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+/* CSS Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,6 +24,7 @@
   margin: auto;
   margin-bottom: 10px ;
 }
+
 .search {
   width: 315px;
   height: 28px;
@@ -30,8 +32,10 @@
   border: 2px solid 20%;
   color:rgba(0, 0, 0, 0.02) ;
   background-color: var(--primary_color);
+  text-align: center;
 }
 
+/* CSS Section-Profile */
 .profile{
    max-width: 390px;
    height: 120px;
@@ -141,7 +145,7 @@
 
 .wait p{
    font-size: 11px;
-   font-weight: 400;
+   font-weight: 400px;
    line-height: 14px;
 }
 
@@ -153,19 +157,75 @@
    padding-top: 20px;
 }
 
-.daftar-alamat {
-   display: flex;
-   width: 393px;
-   height: 50px;
+.akun p {
+   padding: 10px;
 }
 
-.daftar-alamat img{
+.daftar-alamat {
+   display: flex;
+   justify-content: space-between;
+   width: 393px;
+   height: 50px;
+   padding: 10px;
+}
+
+.rician {
+   display: flex;
+}
+
+.rician img{
    width: 35px;
    height: 35px;
 }
 
-.daftar-alamat p{
+.rician p{
+   padding: 8px;
    font-size: 16px;
    font-weight: 400px;
    line-height: 19.2px;
+}
+
+.arrow {
+   border: none;
+   background-color: white;
+}
+
+.arrow img {
+   width: 30px;
+   height: 30px;
+}
+
+.akun-pembayaran {
+   display: flex;
+   justify-content: space-between;
+   width: 393px;
+   height: 50px;
+   padding: 10px;
+}
+
+.pengembalian-dana {
+   display: flex;
+   justify-content: space-between;
+   width: 393px;
+   height: 50px;
+   padding: 10px;
+}
+
+.tentang {
+   width: 393px;
+   height: 224px;
+   margin: auto;
+   padding-top: 8px;
+}
+
+.tentang p {
+   padding: 10px;
+}
+
+.pusat-bantuan {
+   display: flex;
+   justify-content: space-between;
+   width: 393px;
+   height: 50px;
+   padding: 10px;
 }

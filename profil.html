@@ -7,9 +7,20 @@
     <title>Profile</title>
   </head>
   <body style="margin: auto">
+    <!-- Navbar -->
     <nav>
       <div class="navbar">
-        <input class="search" type="search" name="search" id="search" />
+        <button class="arrow">
+          <a href="homepage.html"
+            ><img src="./assets/icon/chevron-left.png" alt="left arrow"
+          /></a>
+        </button>
+        <input
+          class="search"
+          type="text"
+          placeholder="Cari di L21.Id"
+          id="search"
+        />
         <img
           class="notification"
           src="./assets/icon/Notifikasi.png"
@@ -17,12 +28,15 @@
         />
       </div>
     </nav>
+
+    <!-- Section Profile -->
     <section class="profile">
       <div class="wrap">
         <img src="" alt="profile" />
         <h1>Hi, Firdiansyah</h1>
       </div>
     </section>
+
     <div class="point">
       <h4>point anda</h4>
       <p>100</p>
@@ -34,11 +48,7 @@
     />
     <div class="box">
       <div class="box2">
-        <img
-          style="width: 24prfrrrrfx"
-          src="assets/icon/qr-code.png"
-          alt="barcode"
-        />
+        <img style="width: 24px" src="assets/icon/qr-code.png" alt="barcode" />
         <p>BARCODE</p>
       </div>
       <div class="box3">
@@ -46,6 +56,7 @@
       </div>
     </div>
 
+    <!-- Section Pesanan Saya -->
     <div class="pesanan">
       <div class="up">
         <p style="font-size: 16px; font-weight: 600; line-height: 20px">
@@ -75,18 +86,65 @@
       </div>
     </div>
 
+    <!-- Section AKun -->
     <div class="akun">
       <p style="font-size: 16px; font-weight: 600; line-height: 20px">Akun</p>
       <div class="daftar-alamat">
-        <div class="">
+        <div class="rician">
           <img src="./assets/icon/address-book.png" alt="daftar alamat" />
           <p>Daftar Alamat</p>
         </div>
-        <img src="./assets/icon/arrow-icon.png" alt="arrow icon" />
-        <hr />
+        <button class="arrow">
+          <a href="tambah_alamat.html"
+            ><img src="./assets/icon/arrow-icon.png" alt="arrow icon"
+          /></a>
+        </button>
       </div>
-      <div class="akun-pembayaran"></div>
-      <div class="pengembalian-dana"></div>
+      <hr style="border: 1px solid #00000080" />
+
+      <div class="akun-pembayaran">
+        <div class="rician">
+          <img src="./assets/icon/fluent-payment.png" alt="daftar alamat" />
+          <p>Akun Pembayaran</p>
+        </div>
+        <button class="arrow">
+          <a href="tambah_alamat.html"
+            ><img src="./assets/icon/arrow-icon.png" alt="arrow icon"
+          /></a>
+        </button>
+      </div>
+      <hr style="border: 1px solid #00000080" />
+
+      <div class="pengembalian-dana">
+        <div class="rician">
+          <img src="./assets/icon/card-refund.png" alt="daftar alamat" />
+          <p>Akun Pembayaran</p>
+        </div>
+        <button class="arrow">
+          <a href="tambah_alamat.html"
+            ><img src="./assets/icon/arrow-icon.png" alt="arrow icon"
+          /></a>
+        </button>
+      </div>
+      <hr style="border: 1px solid #00000080" />
+    </div>
+
+    <!-- Section Pusat Bantuan -->
+    <div class="tentang">
+      <p style="font-size: 16px; font-weight: 600; line-height: 20px">
+        Tentang
+      </p>
+      <div class="pusat-bantuan">
+        <div class="rician">
+          <img src="./assets/icon/about.png" alt="pusat bantuan" />
+          <p>Pusat Bantuan</p>
+        </div>
+        <button class="arrow">
+          <a href="tambah_alamat.html"
+            ><img src="./assets/icon/arrow-icon.png" alt="arrow icon"
+          /></a>
+        </button>
+      </div>
     </div>
   </body>
 </html>
