@@ -489,7 +489,8 @@
   }
 
   .navigation-items a:active {
-    background-color: #4caf50;
+    background-color: #FFE4BF;
+    border-radius: 5px;
   }
 
   ul {
@@ -600,7 +601,19 @@
   .side-item {
     font-size: 23px;
     font-weight: 400;
+    text-decoration: none;
+    color: black;
   }
+
+  .side-item a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .side-item:hover{
+   font-size: 30px;
+  }
+
 
   /* kontent samping sidebar (page) */
   .pages {
