@@ -20,6 +20,7 @@
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  /* background-color: pink; */
 }
 
 .alamat {
@@ -167,7 +168,7 @@ footer {
   .footer-mobile,
   .taskbar-bottom,
   .content-section,
-  .tambah-alamat {
+  .tambah-alamat{
     display: none;
   }
 
