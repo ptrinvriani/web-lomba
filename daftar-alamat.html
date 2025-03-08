@@ -10,25 +10,58 @@
     <!-- Navbar -->
     <nav>
       <div class="navbar">
-        <button class="arrow">
-          <a href="profil.html">
-            <img src="./assets/icon/chevron-left.png" alt="" />
-          </a>
-        </button>
-        <p
-          style="
-            margin: auto;
-            text-align: center;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 19.2px;
-            letter-spacing: 0%;
-          "
-        >
-          DAFTAR ALAMAT
-        </p>
+        <header class="header">
+          <div class="logo">
+            <img
+              src="./assets/status-bar/Logo_Toko-removebg-preview.png"
+              alt="logo-l21-id"
+              width="150"
+            />
+          </div>
+          <div class="wrapper">
+            <input
+              class="search"
+              type="text"
+              placeholder="Cari di L21.Id"
+              id="search"
+            />
+
+            <div class="badges">
+              <div class="badge" data-badge="user">
+                <a href="homepage.html">
+                  <img src="assets/icon/home.png" alt="user" />
+                  <span class="badge-label">Home</span>
+                </a>
+              </div>
+              <div class="badge" data-badge="user">
+                <a href="profil.html">
+                  <img src="assets/icon/user.png" alt="user" />
+                  <span class="badge-label">Profile</span>
+                </a>
+              </div>
+              <div class="badge" data-badge="notif">
+                <a href="notifikasi.html">
+                  <img src="assets/icon/Notifikasi.png" alt="notification" />
+                  <span class="badge-label">Notifications</span>
+                </a>
+              </div>
+              <div class="badge" data-badge="chart">
+                <a href="keranjang.html">
+                  <img src="assets/icon/bag.png" alt="" />
+                  <span class="badge-label">Keranjang</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <ul class="navigation-items">
+          <li><a href="cardigan.html">Cardigan</a></li>
+          <li><a href="rok.html">Rok Kekinian</a></li>
+          <li><a href="flatshoes.html">Flat Shoes</a></li>
+          <li><a href="sepatu.html">Sepatu</a></li>
+        </ul>
+        <div class="border"></div>
       </div>
-      <hr style="border: 1px solid #00000080" />
     </nav>
 
     <section class="content-section">
@@ -102,5 +135,10 @@
         </a>
       </container>
     </footer>
+
+    <!-- footer desktop -->
+    <div class="footer-desk">
+      <img src="assets/status-bar/Footer.png" alt="footer" />
+    </div>
   </body>
 </html>
