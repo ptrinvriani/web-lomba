@@ -8,16 +8,68 @@
   </head>
   <body>
     <nav>
-      <div class="wrapper">
-        <button class="button">
-          <a href="categori.html"><img src="assets/icon/chevron-left.png" alt="left" /></a>
-        </button>
-        <p style="font-weight: 600">CARDIGAN</p>
-        <img src="assets/status-bar/shopping-bag.png" alt="keranjang" />
+      <div class="navbar">
+        <header class="header">
+          <div class="logo">
+            <img
+              src="./assets/status-bar/Logo_Toko-removebg-preview.png"
+              alt="logo-l21-id"
+              width="150"
+            />
+          </div>
+          <div class="wrapper">
+            <button class="button">
+              <a href="categori.html"
+                ><img src="assets/icon/chevron-left.png" alt="left"
+              /></a>
+            </button>
+            <input
+              class="search"
+              type="text"
+              placeholder="Cari di L21.Id"
+              id="search"
+            />
+            <p style="font-weight: 600" class="judul">CARDIGAN</p>
+            <div class="badges">
+              <div class="badge" data-badge="user">
+                <a href="homepage.html">
+                  <img src="assets/icon/home.png" alt="user" />
+                  <span class="badge-label">Home</span>
+                </a>
+              </div>
+              <div class="badge" data-badge="user">
+                <a href="profil.html">
+                  <img src="assets/icon/user.png" alt="user" />
+                  <span class="badge-label">Profile</span>
+                </a>
+              </div>
+              <div class="badge" data-badge="notif">
+                <a href="">
+                  <img src="assets/icon/Notifikasi.png" alt="notification" />
+                  <span class="badge-label">Notifications</span>
+                </a>
+              </div>
+              <div class="badge" data-badge="chart">
+                <a href="keranjang.html">
+                  <img src="assets/icon/bag.png" alt="" />
+                  <span class="badge-label">Keranjang</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <ul class="navigation-items">
+          <li><a href="cardigan.html">Cardigan</a></li>
+          <li><a href="rok.html">Rok Kekinian</a></li>
+          <li><a href="flatshoes.html">Flat Shoes</a></li>
+          <li><a href="sepatu.html">Sepatu</a></li>
+        </ul>
+        <div class="border"></div>
       </div>
-      <div class="border"></div>
     </nav>
+    <div class="border2"></div>
 
+    <!-- section catalog -->
     <div class="category-container">
       <div class="box-container">
         <div class="container">
@@ -108,7 +160,10 @@
       <div class="box-container">
         <div class="container">
           <div class="img-container">
-            <img src="assets/catalog/Pile_Lined_Fleece_1-removebg-preview.png" alt="cardigan" />
+            <img
+              src="assets/catalog/Pile_Lined_Fleece_1-removebg-preview.png"
+              alt="cardigan"
+            />
           </div>
           <div class="content">
             <div class="text-content">
@@ -159,7 +214,5 @@
         </div>
       </div>
     </div>
-
-
   </body>
 </html>
